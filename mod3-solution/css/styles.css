@@ -1,0 +1,46 @@
+h2 {
+	font-weight: bold;
+}
+.container-fluid>.navbar-header {
+	margin-right: 0;
+    margin-left: 0;
+}
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#header-nav {
+	background-color: lightgray;
+	border-radius: 0;
+	border: 0;
+	border: 2px solid black;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	margin: 10px;
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+	height: 40px;
+}
+
+#nav-list {
+	margin: 0;
+}
+
+#nav-list a {
+	background-color: white;
+	color: black;
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid black;
+}
